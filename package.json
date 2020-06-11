@@ -833,9 +833,7 @@
               "command": "julia",
               "args": [
                 "-e",
-                "using Weave",
-                "-e",
-                "weave('%DOC_EXT%', doctype='texminted')"
+                "using Weave; weave(\"%DOC_EXT%\", doctype=\"texminted\")"
               ],
               "env": {}
             }

@@ -144,7 +144,7 @@ export class Manager {
     }
 
     hasTexId(id: string) {
-        return ['tex', 'latex', 'latex-expl3', 'doctex', 'jlsweave', 'rsweave'].includes(id)
+        return ['tex', 'latex', 'latex-expl3', 'doctex', 'jlweave', 'rsweave'].includes(id)
     }
 
     private workspaceRootDir: string = ''

@@ -832,10 +832,10 @@
               "name": "jnw2tex",
               "command": "julia",
               "args": [
-                  "-e",
-                  "using Weave",
-                  "-e",
-                  "weave('%DOC_EXT%', doctype='texminted')"
+                "-e",
+                "using Weave",
+                "-e",
+                "weave('%DOC_EXT%', doctype='texminted')"
               ],
               "env": {}
             }
